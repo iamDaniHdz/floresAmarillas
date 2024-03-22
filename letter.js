@@ -1,14 +1,3 @@
-// $(document).ready(function () {
-//     $('.container').mouseenter(function () {
-//         $('.card').stop().animate({
-//             top: '-90px'
-//         }, 'slow');
-//     }).mouseleave(function () {
-//         $('.card').stop().animate({
-//             top: 0
-//         }, 'slow');
-//     });
-// });
 let firstTouch = false
 
 const openLetter = () => {
@@ -26,5 +15,5 @@ const openLetter = () => {
 
 const goToFlowers = () => {
     console.log('goToFLowers');
-    location.href ="http://127.0.0.1:5500/flowers.html"
+    location.href ="https://iamdanihdz.github.io/floresAmarillas/flowers"
 };
